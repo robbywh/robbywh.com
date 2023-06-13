@@ -63,3 +63,7 @@ The production build will generate client and server modules by running both cli
 ```shell
 pnpm build # or `yarn build`
 ```
+
+## Built With
+- Qwik
+- TailwindCSS
