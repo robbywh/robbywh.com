@@ -4,6 +4,11 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+dependencies:
+  qwik-image:
+    specifier: ^0.0.6
+    version: 0.0.6
+
 devDependencies:
   '@builder.io/qwik':
     specifier: ^1.1.4
@@ -3030,6 +3035,10 @@ packages:
     resolution: {integrity: sha512-WuyALRjWPDGtt/wzJiadO5AXY+8hZ80hVpe6MyivgraREW751X3SbhRvG3eLKOYN+8VEvqLcf3wdnt44Z4S4SA==}
     engines: {node: '>=10'}
     dev: true
+
+  /qwik-image@0.0.6:
+    resolution: {integrity: sha512-fKZH9JxYQeynEGAd5reoR90uVEy7yc3qMbcMkmGwkZBcEAl8+av0LQl8uq2ZW7rQ/Sgs5fJgl50FqqfVFltRLQ==}
+    dev: false
 
   /read-cache@1.0.0:
     resolution: {integrity: sha512-Owdv/Ft7IjOgm/i0xvNDZ1LrRANRfew4b2prF3OWMQLxLfu3bS8FVhCsrSCMK4lR56Y9ya+AThoTpDCTxCmpRA==}
