@@ -55,7 +55,7 @@ export const head: DocumentHead = {
   meta: [
     {
       name: 'description',
-      content: 'Hello World',
+      content: 'Hello World!',
     },
   ],
 };
