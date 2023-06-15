@@ -10,8 +10,8 @@ export default component$(() => {
       <Image
         layout="fixed"
         objectFit="contain"
-        width="184"
-        height="50"
+        width="160"
+        height="28"
         src={logo}
         alt="logo"
       />
