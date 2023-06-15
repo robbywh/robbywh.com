@@ -6,6 +6,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .text-typing {
+    @apply font-semibold animate-type whitespace-nowrap overflow-hidden font-courier-prime text-center;
+  }
+}
+
 /**
  * WHAT IS THIS FILE?
  *
