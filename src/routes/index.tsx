@@ -15,17 +15,20 @@ export default component$(() => {
         src={logo}
         alt="logo"
       />
-      <div class="flex flex-1 flex-col-reverse 2xl:flex-row 2xl:flex-2 p-60">
+      <div class="flex flex-1 flex-col-reverse p-20 2xl:flex-row 2xl:flex-2 2xl:p-60">
         <div class="flex flex-1 flex-col justify-center items-center">
-          <h1 class="text-2xl font-semibold font-courier-prime whitespace-nowrap">Hello World 👋</h1>
+          <h1 class="text-3xl font-semibold font-courier-prime whitespace-nowrap my-10">Hello World 👋</h1>
           <p class="font-semibold animate-type whitespace-nowrap overflow-hidden font-courier-prime text-center">
-              I'm Robby Widyahartono.
+              I'm <span class="font-extrabold text-xl text-blue-300">Robby Widyahartono.</span>
           </p>
           <p class="font-semibold animate-type whitespace-nowrap overflow-hidden font-courier-prime text-center">
               I'm a Full Stack TypeScript Engineer
           </p>
           <p class="font-semibold animate-type whitespace-nowrap overflow-hidden font-courier-prime text-center">
-              specializing in React Native, ReactJS, NestJS, Remix, and Qwik.
+              specializing in React Native,
+          </p>
+          <p class="font-semibold animate-type whitespace-nowrap overflow-hidden font-courier-prime text-center">
+              ReactJS, NestJS, Remix, and Qwik.
           </p>
           <p class="font-semibold animate-type whitespace-nowrap overflow-hidden font-courier-prime text-center">
               I'm a highly experienced software engineer

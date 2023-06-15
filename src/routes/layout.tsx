@@ -10,7 +10,7 @@ export default component$(() => {
   // Provide your default options
   useImageProvider({
     // you can set this property to overwrite default values [640, 960, 1280, 1920, 3840]
-    resolutions: [640],
+    resolutions: [320],
     // you we can define the source from which to load our image
     imageTransformer$,
   });
