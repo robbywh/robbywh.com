@@ -1,7 +1,7 @@
 import { component$ } from '@builder.io/qwik';
 import type { DocumentHead } from '@builder.io/qwik-city';
 import { Image } from 'qwik-image';
-import logo from '~/assets/images/logo-robby.webp';
+import logo from '~/assets/images/logo.png';
 import robby from '~/assets/images/robby.webp';
 
 export default component$(() => {
