@@ -8,7 +8,7 @@
 
 @layer components {
   .text-typing {
-    @apply font-semibold animate-type whitespace-nowrap overflow-hidden font-courier-prime text-center;
+    @apply font-semibold animate-type whitespace-nowrap overflow-hidden font-courier-prime text-center text-sm md:text-lg;
   }
 }
 
